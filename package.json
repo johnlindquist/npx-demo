@@ -1,9 +1,9 @@
 {
   "name": "npx demo",
   "version": "1.0.0",
-  "bin": "cowsay 'bin'",
+  "bin": "./app.js",
   "scripts":{
-    "postinstall": "cowsay 'postinstall'"
+    "postinstall": "node ./postinstall.js"
   },
   "dependencies":{
     "cowsay":"*"
