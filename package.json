@@ -1,0 +1,11 @@
+{
+  "name": "npx demo",
+  "version: "1.0.0",
+  "bin": "cowsay 'bin'",
+  "scripts":{
+    "postinstall": "cowsay 'postinstall""
+  },
+  "dependencies":{
+    "cowsay":"*"
+  }
+}
