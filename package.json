@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "bin": "cowsay 'bin'",
   "scripts":{
-    "postinstall": "cowsay 'postinstall""
+    "postinstall": "cowsay 'postinstall'"
   },
   "dependencies":{
     "cowsay":"*"
